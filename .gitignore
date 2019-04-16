@@ -2,6 +2,7 @@
 *.ipynb~
 *_solution.ipynb
 *-checkpoint.ipynb
+*.pyc
 extra
 PRIVATE
 Untitled.ipynb
