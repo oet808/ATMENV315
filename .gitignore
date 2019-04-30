@@ -6,3 +6,5 @@
 extra
 PRIVATE
 Untitled.ipynb
+*.csv
+*.nc
