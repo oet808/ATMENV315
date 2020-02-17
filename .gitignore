@@ -1,5 +1,6 @@
 *.py~
 *.ipynb~
+*_complete.ipynb
 *_solution.ipynb
 *_homework.ipynb
 *-checkpoint.ipynb
