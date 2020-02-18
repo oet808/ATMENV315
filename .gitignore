@@ -8,5 +8,5 @@
 extra
 PRIVATE
 Untitled.ipynb
-*.csv
+#*.csv
 *.nc
