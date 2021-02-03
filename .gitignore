@@ -6,7 +6,9 @@
 *-checkpoint.ipynb
 *.pyc
 extra
+HIDE
 PRIVATE
+COVID19/shapefiles
 Untitled.ipynb
 #*.csv
 *.nc
