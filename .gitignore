@@ -2,6 +2,7 @@
 *.ipynb~
 *_complete.ipynb
 *_solution.ipynb
+*_solution_guide.ipynb
 *_homework.ipynb
 *-checkpoint.ipynb
 *.pyc
