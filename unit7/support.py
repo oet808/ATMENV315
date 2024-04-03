@@ -33,7 +33,10 @@
 # Version: 1.1
 #
 # History: 
-# 
+#\t2024-04-03 update needed to suppress numpy error message
+#\t\t Used np.float functions before
+#\t\t now float() is the recommended function to use instead of np.float 
+
 #\t2022-04-14 
 #\t\t Module functions now make use of Pandas DataFrames 
 #\t\t Updated the function get_station_list() to allow updating the local directory
@@ -90,9 +93,9 @@ def read_station_list(sid_code="USW",file_name='ghcnd_stations_NY.txt',path_name
             s=values[0]
             if s[0:3]==sid_code: # when matching string in the beginning of station id
                 sid.append(s)
-                lat.append(np.float(values[1]))
-                lon.append(np.float(values[2]))
-                elev.append(np.float(values[3]))
+                lat.append(float(values[1]))
+                lon.append(float(values[2]))
+                elev.append(float(values[3]))
                 state.append(values[4])
                 name=""
                 for s in values[5:]:
